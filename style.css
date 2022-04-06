@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(/img/flag.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    max-width: 100vw;
+    max-height: 100vh;
+    color: black
+}
